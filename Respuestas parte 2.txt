@@ -1,0 +1,58 @@
+Parte 2: 
+
+• ¿Qué pasa cuando se corre el comando “tsc”?
+
+El comando "tsc" es utilizado para compilar (convertir) archivos TypeScript en archivos JavaScript. 
+Cuando ejecutas el comando "tsc" en la línea de comandos, el compilador TypeScript procesa los archivos 
+con extensión ".ts" y genera archivos JavaScript correspondientes. 
+Estos archivos JavaScript son compatibles con versiones anteriores 
+y se pueden ejecutar en cualquier entorno que admita JavaScript.
+
+Tiene como entrada un archivo
+con extensión .ts
+Tiene como salida un archivo
+con extensión .js
+
+• ¿Cómo está organizada una clase?
+
+Organización de una clase:
+En programación orientada a objetos, una clase es un plano o plantilla para crear objetos. 
+Está organizada de la siguiente manera:
+
+Atributos/Propiedades: Son variables que almacenan datos relacionados con el objeto. 
+Estos pueden ser públicos, privados o protegidos, según su nivel de acceso.
+
+Métodos: Son funciones que definen el comportamiento del objeto. 
+Pueden acceder a los atributos de la clase y realizar acciones relacionadas con ellos.
+
+Constructor: Es un método especial que se llama cuando se crea una instancia de la clase 
+(es decir, cuando se crea un objeto con esas características). 
+Se utiliza para inicializar los atributos del objeto.
+
+Métodos y propiedades estáticos: Son aquellos que pertenecen a la clase en sí, en lugar de a las instancias individuales.
+
+
+• ¿Es correcto que un método auxiliar de una clase
+sea público? ¿Por qué?
+
+Los métodos auxiliares suelen ser funciones internas que ayudan a realizar tareas específicas dentro de la clase. 
+Al hacerlos privados, se evita que otros componentes externos a la clase accedan a ellos directamente. 
+Por lo que lo correcto es que sean privados. 
+
+• Enumerar las características de una interfaz
+
+Una interfaz es un contrato que define la estructura de un objeto. 
+
+Sus características son: 
+
+Declaración: Se define utilizando la palabra clave interface.
+
+Atributos: Define los atributos o propiedades que deben estar presentes en un objeto que implemente la interfaz.
+
+Métodos: Puede definir métodos que deben ser implementados por el objeto que cumple la interfaz.
+
+Compatibilidad estructural: TypeScript verifica la compatibilidad basada en la estructura, lo que significa que un objeto que 
+tiene los mismos atributos y métodos que una interfaz se considera compatible con esa interfaz.
+
+Herencia de interfaz: Una interfaz puede heredar de una o varias interfaces, 
+permitiendo construir interfaces más complejas a partir de otras más simples.

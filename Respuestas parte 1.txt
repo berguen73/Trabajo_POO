@@ -1,0 +1,39 @@
+Parte 1: 
+
+• ¿Cuál es el beneficio de usar un lenguaje con tipos (Typescript)?
+
+Tiene como beneficio el hecho de que permite a los desarrolladores definir variables y funciones tipadas durante el tiempo de diseño, lo nos ayuda a evitar errores en tiempo de ejecución, 
+como podría ser pasar el tipo de variable incorrecto a una función.
+El código es más legible/entendible. 
+Y el hecho de tener más chequeos al momento de desarrollar, implica mayor seguridad. 
+
+
+• ¿A qué se le llama variable interna? ¿Por qué internas?
+
+Una variable interna es una variable declarada dentro de una función o un bloque de código, y su alcance se limita a ese contexto. 
+Se les llama "internas" porque solo son accesibles dentro del ámbito en el que se definen. No pueden ser accedidas desde fuera de la función o el bloque en el que se crean.
+
+
+• Explicar la diferencia entre composición y herencia.
+
+Herencia: Es un concepto de POO en el que una clase (subclase o clase derivada) hereda propiedades y comportamientos de otra clase (superclase o clase base). 
+La herencia establece una relación jerárquica entre clases.
+
+Composición: Es otro concepto de POO en el que objetos más complejos se construyen utilizando otros objetos más simples. 
+En lugar de depender de una jerarquía de clases, los objetos se combinan para formar estructuras más grandes y flexibles. 
+
+
+
+• Explicar el mecanismo que provee TypeScript para manejar casos en donde los parámetros que le llegan a un método son inválidos.
+
+
+
+Verificación en tiempo de ejecución: 
+
+Dentro de una función, puedes realizar comprobaciones de tipo y lanzar excepciones 
+o manejar el error si los parámetros no cumplen con las expectativas.
+
+Si los tipos no están bien definidos en las variables, por ejemplo al pasar como parámetro un número en una variable definida como string, 
+al querer compilar a JS tendremos un error por ser tipos incompatibles. 
+
+Este chequeo de tipos hace que los errores que surjan, se puedan detectar al momento de escribir el código, ANTES de ejecutarlo. 
